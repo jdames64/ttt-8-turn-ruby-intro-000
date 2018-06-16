@@ -62,7 +62,7 @@ def turn(board)
 
  if valid_move?(board, user_input) == true
 
-  move(board, user_input, character)
+  move(board, user_input, "X")
   display_board(board)
 
  else
